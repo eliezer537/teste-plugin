@@ -8,12 +8,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     rollupOptions: {
-      input: {
-        main: '/src/main.tsx',
-      },
+      // input: {
+      //   main: '/src/main.tsx',
+      // },
     },
-  },
-  server: {
-    cors: true,
   },
 })
