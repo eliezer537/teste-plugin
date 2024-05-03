@@ -6,11 +6,10 @@
 # routing internally.
 [[redirects]]
     from = "/*"
-    to = "/https://plugin-acessibilidade.web.app/main.js"
+    to = "https://plugin-acessibilidade.web.app/main.js"
     status = 200
 
 [[headers]]
-    # Define which paths this specific [[headers]] block will cover.
-    for = "/*"
-        [headers.values]
-        Access-Control-Allow-Origin = "*"
+  for = "/*"
+  [headers.values]
+    access-control-allow-origin = "*"
