@@ -6,7 +6,7 @@
 # routing internally.
 [[redirects]]
     from = "/*"
-    to = "/main.js"
+    to = "/https://plugin-acessibilidade.web.app/main.js"
     status = 200
 
 [[headers]]
